@@ -1,0 +1,113 @@
+/* Reset básico */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header h2 {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.section {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h3 {
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.section .item {
+    margin-bottom: 20px;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section ul li {
+    margin: 5px 0;
+}
+
+.section p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+strong {
+    color: #003366;
+}
+
+/* Estilo para la sección de perfil */
+.section.perfil {
+    background-color: #e6f0ff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Estilo personalizado para la experiencia laboral */
+.section.experiencia .item {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Mejorar el estilo para los cursos y certificaciones */
+.section.cursos ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.section.cursos ul li {
+    margin: 5px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .section {
+        padding: 10px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    header h2 {
+        font-size: 1em;
+    }
+}
